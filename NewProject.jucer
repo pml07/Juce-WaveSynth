@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FUzIou" name="NewProject" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginFormats="buildVST3">
+  <MAINGROUP id="U9X3Gx" name="NewProject">
+    <GROUP id="{50FA4005-78DA-70FA-1890-15131B3BC26A}" name="Source">
+      <FILE id="dF5rpt" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="kxcWLr" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="T2QGsA" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+      <FILE id="SLkCFa" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="GY6l10" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="jt7T4S" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="jAqu28" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Download/juce-6.0.7-windows (1)/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
